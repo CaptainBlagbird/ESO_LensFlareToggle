@@ -56,7 +56,7 @@ end
 -- Initialisations
 local function OnPlayerActivated(event)
 	-- Set up SavedVariables table
-	savedVars = ZO_SavedVars:New(AddonName.."_SavedVariables", 1, nil, {lensFlare=1})
+	savedVars = ZO_SavedVars:NewAccountWide("LensFlareToggle_SavedVariables", 1, nil, {lensFlare=1})
 	
 	-- Set value from saved variables
 	ToggleLensFlare(savedVars.lensFlare)
