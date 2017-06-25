@@ -9,7 +9,7 @@ https://github.com/CaptainBlagbird
 -- Addon info
 local AddonName = "LensFlareToggle"
 -- Local variables
-local savedVars
+local savedVars = {}
 local strTo01 = {
     ["true"]  = 1,
     ["on"]    = 1,
